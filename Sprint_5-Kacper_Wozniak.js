@@ -58,7 +58,7 @@ function peopleWithNicknames(names) {
     }
   });
 }
-const newPerson = peopleWithNicknames(names);
+// const newPerson = peopleWithNicknames(names);
 
 function calculateAges(people) {
   return people
@@ -80,7 +80,7 @@ function calculateAges(people) {
     });
 }
 
-const pplAges = calculateAges(newPerson);
+// const pplAges = calculateAges(newPerson);
 const alphabet = "abcdefghijklmnopqrstuvwxyz";
 
 function countLetters(people, alphabet) {
@@ -106,5 +106,5 @@ function countLetters(people, alphabet) {
     return { ...person, mostCommonLetter };
   });
 }
-const counter = countLetters(pplAges, alphabet);
-console.log(counter);
+// const counter = countLetters(pplAges, alphabet);
+// console.log(counter);
