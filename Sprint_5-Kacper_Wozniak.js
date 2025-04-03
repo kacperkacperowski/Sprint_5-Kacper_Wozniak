@@ -58,6 +58,7 @@ function peopleWithNicknames(names) {
     }
   });
 }
+
 const newPerson = peopleWithNicknames(names);
 
 function calculateAges(people) {
@@ -102,7 +103,6 @@ function countLetters(people, alphabet) {
     );
     //nie musimy w dodatkowy sposob zabezpieczac sie przed remisami, bo sortujemy po kolei po alfabecie, wiec w przypadku remisu nie jest spelniony warunek count > max.count ,
     //  wiec zawsze jako max zostanie w pierwszej kolejnosci zapisana wczesniejsza litera z alfabetu
-
     return { ...person, mostCommonLetter };
   });
 }
